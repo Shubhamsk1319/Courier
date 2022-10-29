@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* #main{
+    /* background-color:#8bbabb; */
+    /* color: white; */
+/* } */
+#main::before{
+    z-index: -1;
+    position: absolute;
+    height: 50vh;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #8bbabb;
+}
+#main1{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    height: 100%;
+    /* flex-direction: row; */
+}
+.left{
+    width: 900px;
+    height: 800px;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    background-color: white;
+    -webkit-box-shadow: 0 0px 20px 0 rgb(0 0 0 / 20%);
+}
+.right{
+    width: 400px;
+    height: 800px;
+    /* border: 1px solid red; */
+    background-color:#35477d ;
+}
+.row{
+    display: flex;
+    /* border: 1px solid red; */
+    /* flex-wrap: wrap; */
+    /* height: 30px; */
+}
+.c1{
+    /* border: solid blue 1px; */
+    padding: 30px;
+    width: 500px;
+}
+.c2{
+    padding: 30px;
+    width: 600px;
+}
+.name{
+    font-size: 18px;
+    color: #b3b3b3;
+    /* margin: 0 0 10px 0; */
+    display: flex;
+    margin: 10px;
+    /* padding: 0; */
+}
+.form{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none;
+    margin: 10px;
+    width: 300px;
+    line-height: 50px;
+}
+.form2{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none;
+    margin: 10px;
+    width: 400px;
+    line-height: 50px;
+}
+.form:active, .form:focus , .form2:active , .form2:focus {
+    outline: none;
+    /* -webkit-box-shadow: none; */
+    box-shadow: none;
+    border-color: #000;
+}
+input{
+    font-family: inherit;
+    font-size: 16px;
+}
+textarea{
+    font-family: inherit;
+    font-size: 16px;
+}
+textarea .form{
+    height: 400px;
+    /* font-family: inherit; */
+}
+.left h2{
+    margin: 40px;
+    margin-bottom: 5px;
+}
+.right1{
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+.contactinfo h3{
+    padding: 20px;
+    color: white;
+    padding-bottom: 5px;
+}
+.contactinfo p{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.ic1{
+    /* content: "\e8b4"; */
+    /* border: 1px solid red; */
+    width: 170px;
+    height: 80px;
+    /* position: absolute; */
+    margin-top: 50px;
+    /* font-size: 20px; */
+    display: flex;
+    color:  rgba(255, 255, 255, 0.5);
+    padding-left: 20px;
+}
+.ic2{
+    /* border: 1px solid red; */
+    width: 170px;
+    /* height: 30px; */
+    /* position: absolute; */
+    margin-top: 50px;
+    /* font-size: 20px; */
+    display: flex; 
+    color:  rgba(255, 255, 255, 0.5);
+    padding-left: 20px;
+}
+/* .ico1 i{
+    padding-top: 15px; */
+/* } */
+.ic1 h2 ,
+.ic2 h2{
+    margin-left: 43px;
+    font-size: 15px;
+}
+.border3{
+    border-bottom: black 3px solid;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.border4{
+    border-bottom: white 3px solid;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 22px;
+}
+.btn3{
+    padding: 3px 32px;
+    border:2px solid white;
+    background-color:blue;
+    color: white;
+    /* margin: 17px; */
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    margin-top: 0px;
+}
+.btn3 a{
+    text-decoration: none;
+    color: white;
+}
